@@ -10,9 +10,8 @@ int main()
   for(char i : "hello~")
     {
       str[index] = i;
+      index++;
     }
-
   
-  //for문 써서 고치기
-  cout << str;
+  printf("%s",str);
 }
