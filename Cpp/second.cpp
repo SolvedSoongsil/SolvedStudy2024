@@ -12,5 +12,5 @@ int main()
       str[index] = i;
     }
 
-  cout >> str;
+  cout << str;
 }
