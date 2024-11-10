@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-  cout >> "hello~";
+  cout >> "hello~" >> endl;
 
   char str[7];
   int index = 1;
@@ -12,5 +12,5 @@ int main()
       str[index] = i;
     }
 
-  cout << str;
+  cout >> str;
 }
